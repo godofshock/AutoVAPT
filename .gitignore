@@ -1,0 +1,49 @@
+# ── Python ────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.Python
+env/
+venv/
+.venv/
+ENV/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+
+# ── AutoVAPT outputs (never commit reports or logs) ───────────
+reports/
+logs/
+*.pdf
+*.json
+
+# ── Secrets — NEVER commit these ──────────────────────────────
+.env
+*.key
+*.pem
+*.crt
+secrets.yaml
+credentials.yaml
+
+# ── IDE / OS ──────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── Config overrides (keep config.yaml.example, not config.yaml with secrets)
+# Uncomment if your config.yaml contains real credentials:
+# config.yaml

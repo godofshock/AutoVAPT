@@ -1,0 +1,23 @@
+# AutoVAPT Dependencies
+# Install with: pip install -r requirements.txt --break-system-packages
+
+# ── Core ──────────────────────────────────────────────────────
+python-nmap>=0.7.1          # Nmap Python wrapper
+requests>=2.31.0            # HTTP library (scanning + NVD API)
+pyyaml>=6.0.1               # Config file parsing
+
+# ── Report Generation ─────────────────────────────────────────
+reportlab>=4.0.4            # PDF generation
+
+# ── DNS Enumeration ───────────────────────────────────────────
+dnspython>=2.4.2            # DNS resolver
+
+# ── Metasploit RPC ────────────────────────────────────────────
+pymetasploit3>=1.0.3        # Metasploit RPC client
+
+# ── Optional: Shodan enrichment ───────────────────────────────
+shodan>=1.28.0              # Shodan API (requires SHODAN_API_KEY)
+
+# ── Testing ───────────────────────────────────────────────────
+pytest>=7.4.0
+pytest-cov>=4.1.0
