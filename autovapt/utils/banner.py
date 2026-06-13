@@ -1,0 +1,28 @@
+"""
+AutoVAPT ASCII Banner
+"""
+
+BANNER = r"""
+ █████╗ ██╗   ██╗████████╗ ██████╗ ██╗   ██╗ █████╗ ██████╗ ████████╗
+██╔══██╗██║   ██║╚══██╔══╝██╔═══██╗██║   ██║██╔══██╗██╔══██╗╚══██╔══╝
+███████║██║   ██║   ██║   ██║   ██║██║   ██║███████║██████╔╝   ██║   
+██╔══██║██║   ██║   ██║   ██║   ██║╚██╗ ██╔╝██╔══██║██╔═══╝    ██║   
+██║  ██║╚██████╔╝   ██║   ╚██████╔╝ ╚████╔╝ ██║  ██║██║        ██║   
+╚═╝  ╚═╝ ╚═════╝    ╚═╝    ╚═════╝   ╚═══╝  ╚═╝  ╚═╝╚═╝        ╚═╝   
+"""
+
+INFO = """\033[96m
+  Automated Vulnerability Assessment & Penetration Testing Framework
+  Version  : 1.0.0
+  Author   : Aagnik
+  Platform : Kali Linux / Debian
+  GitHub   : https://github.com/yourusername/AutoVAPT
+
+  \033[93m[!] Authorized use only. Unauthorized scanning is illegal.\033[0m
+"""
+
+
+def print_banner():
+    print("\033[91m" + BANNER + "\033[0m")
+    print(INFO)
+    print("-" * 70 + "\n")
