@@ -14,7 +14,7 @@
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python)
 ![Platform](https://img.shields.io/badge/Platform-Kali%20Linux-557C94?logo=linux)
 ![License](https://img.shields.io/badge/License-MIT-green)
-![CI](https://github.com/yourusername/AutoVAPT/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/godofshock/AutoVAPT/actions/workflows/ci.yml/badge.svg)
 ![Coverage](https://img.shields.io/codecov/c/github/yourusername/AutoVAPT)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 
